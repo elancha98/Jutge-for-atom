@@ -3,8 +3,7 @@
   "main": "./lib/jutge-for-atom",
   "version": "0.0.0",
   "description": "A jutge.org wrapper for atom.io",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "jutge-for-atom:toggle"
   },
@@ -14,5 +13,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "superagent": "^3.6.0"
   }
 }
